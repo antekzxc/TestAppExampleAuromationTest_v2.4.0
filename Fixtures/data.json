@@ -1,0 +1,8 @@
+{
+  "invalidUserName": "AK",
+  "invalidUserEmail": "anton@",
+  "validNameForCreationUser": "Anton",
+  "validNameForUpdatingUser": "Klimuk",
+  "validAddressForCreationUser": "home",
+  "validEmailForCreationUser": "ant@mail.com"
+}

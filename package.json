@@ -1,0 +1,24 @@
+{
+  "name": "testappexampleauromationtest",
+  "version": "1.0.0",
+  "description": "Automated tests for test Application",
+  "main": "conf.js",
+  "scripts": {
+    "test": "protractor conf.js",
+    "posttest": "allure generate allure-results --clean -o allure-report || true"
+  },
+  "author": "Anton Klimuk",
+  "license": "ISC",
+  "devDependencies": {
+    "allure-commandline": "^2.7.0"
+  },
+  "dependencies": {
+    "jasmine": "^3.3.1",
+    "jasmine-allure-reporter": "^1.0.2",
+    "protractor": "^5.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antekzxc/TestAppExampleAuromationTest_v2.4.git"
+  }
+}
