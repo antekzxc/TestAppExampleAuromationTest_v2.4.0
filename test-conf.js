@@ -9,7 +9,7 @@ updateWebdriverManager.on('close', function (wmUpdateExitCode) {
     if (wmUpdateExitCode !== 0) {
         process.exit(1);
     }
-    spawn('node node_modules/protractor/bin/webdriver-manager start --standalone', { // будет висеть в фоне, пока не пройдут тесты
+    spawn('node node_modules/protractor/bin/webdriver-manager start', { // будет висеть в фоне, пока не пройдут тесты
         shell: true
     });
     setTimeout(function () {
